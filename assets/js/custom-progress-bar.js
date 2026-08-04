@@ -1,0 +1,1 @@
+$(document).ready((function(i){"use strict";i(window).on("scroll",(function(){var n=i(".progress_bar").offset().top-window.innerHeight;i(window).scrollTop()>n&&i(".skill-bar").each((function(){i(this).find(".skill-bar-inner").animate({width:i(this).attr("data-width")},3e3)}))}))}));
